@@ -1,0 +1,15 @@
+my_dict = {'Alex':2002,'Igor':2004}
+print(my_dict)
+print(my_dict.get('Alex')) #print(my_dict['Alex'])
+my_dict['Oleg']=2006 #print(my_dict.get('Oleg',2006))
+print(my_dict['Oleg'])
+my_dict.update({'Max':2008,'Vlad':2010})
+C = my_dict.pop('Alex')
+print(C)
+print(my_dict)
+my_set={1, 1, 3, 3, 5, 5, 'True', 'True', 'Urban', 'Urban'}
+print(my_set)
+my_set.add(7)
+my_set.add('Denis')
+my_set.remove('True') # my_set.discard('True')
+print(my_set)
