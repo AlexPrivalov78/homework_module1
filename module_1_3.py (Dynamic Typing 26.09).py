@@ -8,5 +8,7 @@ print(age)
 #print(True)
 age=age+1
 print(age)
-is_student = name
-print(is_student==name)
+#is_student = name
+#print(is_student==name)
+is_student = (age==47)
+print(is_student)
